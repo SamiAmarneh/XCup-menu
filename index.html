@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إِكْسْ كَبْ | كافيه</title>
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Floating Background Elements -->
+  <div class="floating-lights">
+    <div class="light light-1"></div>
+    <div class="light light-2"></div>
+    <div class="light light-3"></div>
+    <div class="light light-4"></div>
+    <div class="light light-5"></div>
+    <div class="light light-6"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="imgs/logo.jpg" alt="إكس كب" class="nav-brand-img" />
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="القائمة">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero" class="nav-link">الرئيسية</a></li>
+        <li><a href="#hot-drinks" class="nav-link">مشروبات ساخنة</a></li>
+        <li><a href="#cold-drinks" class="nav-link">مشروبات باردة</a></li>
+        <li><a href="#mojito" class="nav-link">موهيتو</a></li>
+        <li><a href="#smoothies" class="nav-link">سموذي</a></li>
+        <li><a href="#energy-drinks" class="nav-link">مشروبات طاقة</a></li>
+        <li><a href="#milkshakes" class="nav-link">ميلك شيك</a></li>
+        <li><a href="#desserts" class="nav-link">حلويات</a></li>
+        <li><a href="#argeela" class="nav-link">أركيلة</a></li>
+        <li><a href="#juices" class="nav-link">عصائر</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-logo">
+        <div class="logo-glow"></div>
+        <img src="imgs/logo.jpg" alt="إكس كب" class="hero-brand-img" />
+      </div>
+      <p class="hero-tagline">كافيه</p>
+      <p class="hero-subtitle">تجربة فريدة من نوعها في عالم المقاهي الفاخرة</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn-primary">
+          <span>استكشف القائمة</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero-reflection"></div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu" id="menu">
+
+    <!-- Hot Drinks -->
+    <div class="category-section" id="hot-drinks">
+      <div class="category-header">
+        <div class="category-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M20 24h24v28a8 8 0 01-8 8H28a8 8 0 01-8-8V24z" stroke="currentColor" stroke-width="2" />
+            <path d="M44 28h6a6 6 0 016 6v4a6 6 0 01-6 6h-6" stroke="currentColor" stroke-width="2" />
+            <path d="M24 16c0-4 4-8 8-8s8 4 8 8" stroke="currentColor" stroke-width="2" />
+            <path d="M28 4v4M36 4v4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </div>
+        <div class="category-info">
+          <h2 class="category-title">مشروبات ساخنة</h2>
+          <span class="category-subtitle">Hot Drinks</span>
+        </div>
+      </div>
+      <div class="menu-grid">
+      </div>
+    </div>
+
+    <!-- Cold Drinks -->
+    <div class="category-section" id="cold-drinks">
+      <div class="category-header">
+        <div class="category-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M22 20h20l-2 36H24l-2-36z" stroke="currentColor" stroke-width="2" />
+            <path d="M20 20h24v4H20z" stroke="currentColor" stroke-width="2" />
+            <path d="M28 8l4-4 4 4" stroke="currentColor" stroke-width="2" />
+            <circle cx="28" cy="32" r="2" fill="currentColor" />
+            <circle cx="36" cy="38" r="2" fill="currentColor" />
+          </svg>
+        </div>
+        <div class="category-info">
+          <h2 class="category-title">مشروبات باردة</h2>
+          <span class="category-subtitle">Cold Drinks</span>
+        </div>
+      </div>
+      <div class="menu-grid">
+      </div>
+    </div>
+
+    <!-- Mojito -->
+    <div class="category-section" id="mojito">
+      <div class="category-header">
+        <div class="category-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M24 16h16l-2 40H26l-2-40z" stroke="currentColor" stroke-width="2" />
+            <path d="M22 16h20v4H22z" stroke="currentColor" stroke-width="2" />
+            <circle cx="28" cy="28" r="3" stroke="currentColor" stroke-width="2" />
+            <circle cx="36" cy="36" r="3" stroke="currentColor" stroke-width="2" />
+          </svg>
+        </div>
+        <div class="category-info">
+          <h2 class="category-title">موهيتو</h2>
+          <span class="category-subtitle">Mojito</span>
+        </div>
+      </div>
+      <div class="menu-grid">
+      </div>
+    </div>
+
+    <!-- Smoothies -->
+    <div class="category-section" id="smoothies">
+      <div class="category-header">
+        <div class="category-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M20 18h24l-2 38H22l-2-38z" stroke="currentColor" stroke-width="2" />
+            <path d="M18 18h28v4H18z" stroke="currentColor" stroke-width="2" />
+            <ellipse cx="28" cy="30" rx="4" ry="3" stroke="currentColor" stroke-width="2" />
+            <ellipse cx="36" cy="38" rx="4" ry="3" stroke="currentColor" stroke-width="2" />
+          </svg>
+        </div>
+        <div class="category-info">
+          <h2 class="category-title">سموذي</h2>
+          <span class="category-subtitle">Smoothies</span>
+        </div>
+      </div>
+      <div class="menu-grid">
+      </div>
+    </div>
+
+    <!-- Energy Drinks -->
+    <div class="category-section" id="energy-drinks">
+      <div class="category-header">
+        <div class="category-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M22 12h20v44H22z" stroke="currentColor" stroke-width="2" />
+            <path d="M22 12l4-6h12l4 6" stroke="currentColor" stroke-width="2" />
+            <path d="M30 28l8 8-8 8-8-8z" fill="currentColor" fill-opacity="0.3" stroke="currentColor"
+              stroke-width="2" />
+          </svg>
+        </div>
+        <div class="category-info">
+          <h2 class="category-title">مشروبات طاقة</h2>
+          <span class="category-subtitle">Energy Drinks</span>
+        </div>
+      </div>
+      <div class="menu-grid menu-grid-compact">
+      </div>
+    </div>
+
+    <!-- Milkshakes -->
+    <div class="category-section" id="milkshakes">
+      <div class="category-header">
+        <div class="category-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M20 20h24l-2 36H22l-2-36z" stroke="currentColor" stroke-width="2" />
+            <path d="M18 20h28v4H18z" stroke="currentColor" stroke-width="2" />
+            <ellipse cx="32" cy="12" rx="10" ry="6" stroke="currentColor" stroke-width="2" />
+            <path d="M26 12c0-6 6-10 6-10s6 4 6 10" stroke="currentColor" stroke-width="2" />
+            <circle cx="32" cy="4" r="2" fill="currentColor" />
+          </svg>
+        </div>
+        <div class="category-info">
+          <h2 class="category-title">ميلك شيك</h2>
+          <span class="category-subtitle">Milkshakes (+2 إضافة كريما)</span>
+        </div>
+      </div>
+      <div class="menu-grid">
+      </div>
+    </div>
+
+    <!-- Desserts -->
+    <div class="category-section" id="desserts">
+      <div class="category-header">
+        <div class="category-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M16 48h32" stroke="currentColor" stroke-width="2" />
+            <path d="M20 48c0-8 4-16 12-16s12 8 12 16" stroke="currentColor" stroke-width="2" />
+            <circle cx="32" cy="24" r="8" stroke="currentColor" stroke-width="2" />
+            <path d="M28 22l4 4 4-4" stroke="currentColor" stroke-width="2" />
+            <circle cx="32" cy="18" r="2" fill="currentColor" />
+          </svg>
+        </div>
+        <div class="category-info">
+          <h2 class="category-title">حلويات</h2>
+          <span class="category-subtitle">Desserts</span>
+        </div>
+      </div>
+      <div class="menu-grid">
+      </div>
+    </div>
+
+    <!-- Argeela / Hookah -->
+    <div class="category-section" id="argeela">
+      <div class="category-header">
+        <div class="category-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M20 48h24" stroke="currentColor" stroke-width="2" />
+            <path d="M24 48V32a4 4 0 014-4h8a4 4 0 014 4v16" stroke="currentColor" stroke-width="2" />
+            <path d="M28 28V20M36 28V20M32 28v-8" stroke="currentColor" stroke-width="2" />
+            <ellipse cx="32" cy="16" rx="6" ry="4" stroke="currentColor" stroke-width="2" />
+            <circle cx="32" cy="40" r="4" stroke="currentColor" stroke-width="2" />
+          </svg>
+        </div>
+        <div class="category-info">
+          <h2 class="category-title">أركيلة</h2>
+          <span class="category-subtitle">Hookah</span>
+        </div>
+      </div>
+      <div class="menu-grid menu-grid-compact">
+      </div>
+    </div>
+
+    <!-- Natural Juices -->
+    <div class="category-section" id="juices">
+      <div class="category-header">
+        <div class="category-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M22 16h20l-2 40H24l-2-40z" stroke="currentColor" stroke-width="2" />
+            <path d="M20 16h24v4H20z" stroke="currentColor" stroke-width="2" />
+            <circle cx="28" cy="28" r="4" stroke="currentColor" stroke-width="2" />
+            <circle cx="36" cy="36" r="4" stroke="currentColor" stroke-width="2" />
+          </svg>
+        </div>
+        <div class="category-info">
+          <h2 class="category-title">عصائر طبيعية</h2>
+          <span class="category-subtitle">Natural Juices</span>
+        </div>
+      </div>
+      <div class="menu-grid">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h2>إِكْسْ كَبْ</h2>
+        <p>كافيه</p>
+      </div>
+      <div class="footer-info">
+        <div class="footer-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          <span>جنين - الجامعة العربية الامريكية - بوابة 1</span>
+        </div>
+        <div class="footer-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+          </svg>
+          <span dir="ltr">+972 59-895-5588</span>
+        </div>
+        <div class="footer-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 16 14" />
+          </svg>
+          <span>يومياً: 8:00 ص - 10:00 م</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 إِكْسْ كَبْ. جميع الحقوق محفوظة</p>
+    </div>
+  </footer>
+
+  <script src="menu_data.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
